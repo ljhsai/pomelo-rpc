@@ -13,6 +13,9 @@ util.inherits(Client, EventEmitter);
 var pro = Client.prototype;
 
 pro.connect = function(host, port, cb) {
+  if(host.indexOf("ws://") === -1){
+    host = "ws://" + host;
+  }
   this.socket = sioClient.connect(host + ':' + port, {'force new connection': true});
 
   var self = this;
