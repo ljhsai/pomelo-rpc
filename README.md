@@ -12,13 +12,13 @@ And the remote service codes would loaded by pomelo-loader module and more detai
 
 ##Installation
 ```
-npm install pomelo-rpc
+npm install pomelo-rpc-fresh
 ```
 
 ##Usage
 ###Server
 ``` javascript
-var Server = require('pomelo-rpc').server;
+var Server = require('pomelo-rpc-fresh').server;
 
 // remote service path info list
 var paths = [
@@ -34,7 +34,7 @@ console.log('rpc server started.');
 
 ###Client
 ``` javascript
-var Client = require('pomelo-rpc').client;
+var Client = require('pomelo-rpc-fresh').client;
 
 // remote service interface path info list
 var records = [
