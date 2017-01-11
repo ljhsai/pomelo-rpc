@@ -1,6 +1,6 @@
 {
   "name": "pomelo-rpc-fresh",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "dependencies": {
     "async": "2.1.4",
     "crc": "3.4.3",
